@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>RockPaperScissorWorld</title>
 </head>
-<body>
-    <script src="basic.js"></script>
+<body >
+    <script src="basic.js" defer></script>
+    <h1>Rock Paper Scissor</h1>
+    <div class="scoreandbutton">
+        <div class="score">
+            <h1>SCORE BOARD</h1>
+            <div class="points">
+                <div class="yourpoint">
+                    <h2>YOUR</h2>
+                    <h2 id="yourScore">0</h2>
+                </div>
+                <div class="comppoint">
+                    <h2>COMPUTER</h2>
+                    <h2 id="compScore">0</h2>
+                </div>
+            </div>
+            <div class="result">
+
+            </div>
+        </div> 
+        <div id="allbuttons"> 
+            <div class="userbuttons">
+                <h2>Your choice</h4>
+                <button class="paper"></button>
+                <button class="rock"></button>
+                <button class="scissor"></button>
+            </div>
+            <h1>Vs</h1>
+            <div class="compbuttons">
+                <h2>Computer choice</h4>
+                <button class="paper"></button>
+                <button class="rock" href="images/rock.png"></button>
+                <button class="scissor"></button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
