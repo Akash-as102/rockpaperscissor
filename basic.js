@@ -48,7 +48,7 @@ function result(roundResult){
             lose++;
             compScore.textContent=lose;
         }
-        else if(roundResult=="tie"){
+        else if(roundResult=="Ohh you both chose the same"){
             checkEmpty();
             resultDis.textContent=roundResult;
             classResult.appendChild(resultDis);
